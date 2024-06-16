@@ -1,11 +1,10 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function NewsCardMenu({ allNews }) {
-  const newsid = useParams();
   return (
     <div className="flex flex-wrap justify-center items-center">
       {allNews.map((news) => (
-        <Link to={`/newsdetails/${newsid}`}>
+        <Link to={`/newsdetails/${news?.source?.id}`}>
           <div className="w-[300px] h-[300px] m-5 bg-gray-200 rounded-lg shadow-lg overflow-clip">
             <img
               src={news?.urlToImage}
