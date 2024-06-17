@@ -6,7 +6,7 @@ import AppLayout from "./components/AppLayout";
 import Body from "./components/Body";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
-import NewsDetails from "./components/NewsDetails";
+import SingleNews from "./components/SingleNews";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -28,8 +28,8 @@ const appRouter = createBrowserRouter([
     ],
   },
   {
-    path: "/newsdetails/:newsid",
-    element: <NewsDetails />,
+    path: "/singlenews/:newsid",
+    element: <SingleNews />,
   },
 ]);
 const Start = () => {

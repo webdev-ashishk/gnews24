@@ -29,3 +29,8 @@ https://newsapi.org/v2/top-headlines?country=us&apiKey=2f7fbc902de14f53a875f1f00
 # BUILD A SEARCH FUNCTIONALITY WITH THIS END POINT
 
 > https://newsapi.org/v2/everything/?q=jobs&apiKey=2f7fbc902de14f53a875f1f00621b9f7
+
+# Task
+
+> 1. add summer ui@ Body
+> 2. 
