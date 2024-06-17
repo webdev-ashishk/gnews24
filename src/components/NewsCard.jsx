@@ -3,7 +3,7 @@ export default function NewsCard({ allNews }) {
   return (
     <div className="flex flex-wrap justify-center items-center">
       {allNews.map((news) => (
-        <div className="w-[300px] h-[400px] m-5 bg-gray-200 rounded-lg shadow-lg overflow-clip">
+        <div className="w-[300px] h-[350px] m-5 bg-blue-950 text-white rounded-lg shadow-lg overflow-clip border-2">
           <img
             src={news?.urlToImage}
             alt={news?.source?.id}

@@ -3,7 +3,6 @@ export default function Header() {
   const [searchText, setSearchText] = useState("");
   return (
     <div className="text-white">
-      <h3>header.jsx rendered!</h3>
       <input
         type="text"
         placeholder="search..."
@@ -11,6 +10,7 @@ export default function Header() {
         onChange={(e) => {
           setSearchText(e.target.value);
         }}
+        className="text-white w-[300px] h-[50px] m-2 pl-5 text-2xl border-2 rounded-sm"
       />
     </div>
   );
