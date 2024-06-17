@@ -33,4 +33,9 @@ https://newsapi.org/v2/top-headlines?country=us&apiKey=2f7fbc902de14f53a875f1f00
 # Task
 
 > 1. add summer ui@ Body
-> 2. 
+> 2. Using context api for search functionality;
+>    https://www.freecodecamp.org/news/context-api-in-react/
+
+## solution of search box
+> 1. place input box inside your body.jsx
+> 2. fetched all data inside the body.jsx
