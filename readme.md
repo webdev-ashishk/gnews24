@@ -37,5 +37,24 @@ https://newsapi.org/v2/top-headlines?country=us&apiKey=2f7fbc902de14f53a875f1f00
 >    https://www.freecodecamp.org/news/context-api-in-react/
 
 ## solution of search box
+
 > 1. place input box inside your body.jsx
 > 2. fetched all data inside the body.jsx
+
+## 9 july fixes List of issues
+
+> 1. fixing the height of image in NewsCard.
+> 2. Cutting the overflow text of title .
+> 3. converting the "2024-06-10" to "10-06-2024" in js
+>    // Original date string
+
+const originalDate = "2024-06-10";
+
+// Split the original date string by '-'
+const parts = originalDate.split('-');
+
+// Rearrange the parts array to change the order
+const rearrangedDate = `${parts[2]}-${parts[1]}-${parts[0]}`;
+
+// Output the rearranged date
+console.log(rearrangedDate); // Outputs: "10-06-2024"

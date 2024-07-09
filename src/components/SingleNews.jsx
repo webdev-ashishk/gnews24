@@ -16,7 +16,7 @@ export default function SingleNews() {
   setFilteredNews(uniqueMenuItems);
   console.log(filteredNews);
   return (
-    <div className="text-white text-2xl">
+    <div className="text-white text-2xl w-full">
       <h2>news details .. rendered!</h2>
       <p>id : {newsid}</p>
       {/* <p>{filteredNews.name}</p>
